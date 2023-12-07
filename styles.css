@@ -8,6 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: 100;
 }
 
 .menu {
@@ -77,8 +78,12 @@ h2 {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
   background-color: rgba(77, 76, 77, 0.8);
   color: #fff;
+  padding: 50px;
 }
 
 .button {
@@ -101,4 +106,17 @@ footer {
   background-color: #fff;
   color: #000;
   padding: 0 20px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  padding: 10px 0 10px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
