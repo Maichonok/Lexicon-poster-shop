@@ -16,3 +16,6 @@ Asset folder included.
 ![screens](./screens.png)
 
 ![screens2](./check-out.png)
+
+ ## GitHub Pages Link 
+ [here](https://maichonok.github.io/Lexicon-poster-shop/).
